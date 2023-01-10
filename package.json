@@ -1,10 +1,10 @@
 {
-    "name": "management",
+    "name": "food",
     "version": "1.0.0",
-    "scripst":   {
+    "scripts":   {
         "client": "cd client && yarn start",
         "server": "nodemon server.js",
-        "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yartn client\""
+        "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
     },
     "dependencies": {
         "body-parser": "^1.18.3",
